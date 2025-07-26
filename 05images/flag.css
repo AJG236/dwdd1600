@@ -104,7 +104,6 @@ figure.wrapped {
     float: right;
 }
 figure.wrapped {
-    width: 100%;
     height: auto;
 }
 figure.wrapped figcaption {
