@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Andrew Garcia">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <meta name="description" content="Learn about Flags">
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="flag.css">
+    <title>Flag Gallery</title>
+</head>
+
+<body>
+    <!-- start the page head -->
+    <header>
+        <span>Introduction to Flags</span>
+    </header>
+
+    <!-- start the page navigation -->
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Flags</a></li>
+            <li><a href="history.html">The History of Flags</a></li>
+            <li><a href="flags.html">Flag Gallery</a></li>
+            <li class="active"><a href="news.html">Newsletter</a></li>
+        </ul>
+    </nav>
+
+    <!-- start the page main -->
+    <main>
+        <h1>Sign Up for the Newsletter</h1>
+        <form method="get" class="analytics" action="thanks.html">
+            <fieldset>
+                <legend>General Information</legend>
+            <label>Name*<input type="text" name="name" required></label>
+            <label>Email*<input type="email" name="email" required></label>
+            <label>Phone Number*<input type="tel" name="phone" required placeholder="123-456-7890"></label>
+            </fieldset>
+
+            <fieldset>
+                <legend>News Frequency</legend>
+                <label><input type="radio" name="method" value="all">All Flag News</label>
+                <label><input type="radio" name="method" value="important">Important Flag News</label>
+                <label><input type="radio" name="method" value="some">Some Flag News</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Type of News</legend>
+                <label><input type="checkbox" name="world" value="chosen">World Flag News</label>
+                <label><input type="checkbox" name="subdivision" value="chosen">Subdivision Flag News</label>
+                <label><input type="checkbox" name="organization" value="chosen">Flag Organization News</label>
+                <label><input type="checkbox" name="activity" value="chosen">Flag Activity News</label>
+                <label><input type="checkbox" name="fun" value="chosen">Fun Flag News</label>
+                
+                <label> News Frequency
+                <select name="time">
+                    <option value="none">Please Select</option>
+                    <option value="week">Weekly</option>
+                    <option value="month">Mothly</option>
+                    <option value="year">Yearly</option>
+                </select>
+                </label>
+            </fieldset>
+            <label>Comments
+                <textarea name="comments"></textarea>
+            </label>
+            <input type="submit" value="Sign Up">
+        </form>
+    </main>
+    <!-- start the page footer -->
+    <footer>
+        <p>&copy; 2025 &bull; Andrew Garcia &bull; Web Essentials</p>
+    </footer>
+</body>
+
+</html>
